@@ -326,31 +326,39 @@
             </h2>
           </div>
           <form action="" class="form">
-            <label for="name" class="name_label"
-              >Ism
-              <input
-                class="name input"
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Ismingizni kiriting"
-              />
-            </label>
+            <div class="name-number">
+              <label for="name" class="name_label"
+                ><h6 class="label_title">Ism</h6>
+                <input
+                  class="name input"
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Ismingizni kiriting"
+                />
+              </label>
 
-            <label for="number" class="number_label"
-              >Ism
-
-              <input
-                class="number_one input"
-                type="number"
-                name="number"
-                id="number"
-                placeholder="+998"
-              />
-            </label>
+              <label for="number" class="number_label"
+                ><h6 class="label_title">
+                  Telefon <span class="tel_span">(Ko'rsatilishi shart)</span>
+                </h6>
+                <div class="snapnumber input">
+                  <span class="span">+998</span>
+                  <hr class="form_line" />
+                  <input
+                    class="number_one"
+                    type="tel"
+                    name="number"
+                    id="number"
+                    required
+                    placeholder="916680565"
+                  />
+                </div>
+              </label>
+            </div>
 
             <label for="message" class="message_label"
-              >Xabaringizni qoldiring
+              ><h6 class="label_title">Xabaringizni qoldiring</h6>
               <textarea
                 class="message input"
                 name="message"
@@ -370,23 +378,37 @@
     <footer class="footer">
       <div class="container">
         <div class="footer_header">
-          <div class="social">
-            <a class="social_link" href="">
-              <img class="social_img" src="./images/svg/instagram.svg" alt="" />
-            </a>
-            <a class="social_link" href="">
-              <img class="social_img" src="./images/svg/instagram.svg" alt="" />
-            </a>
-            <a class="social_link" href="">
-              <img class="social_img" src="./images/svg/instagram.svg" alt="" />
-            </a>
-            <a class="social_link" href="">
-              <img class="social_img" src="./images/svg/instagram.svg" alt="" />
-            </a>
-          </div>
-          <div class="footer_numbers">
-            <p class="footer_number">+99899 181 42 33</p>
-            <p class="footer_number">+99899 181 42 33</p>
+          <div class="social_number">
+            <div class="social">
+              <a class="social_link" href="">
+                <img
+                  class="social_img"
+                  src="./images/svg/instagram.svg"
+                  alt=""
+                />
+              </a>
+              <a class="social_link" href="">
+                <img
+                  class="social_img"
+                  src="./images/svg/telegram.svg"
+                  alt=""
+                />
+              </a>
+              <a class="social_link" href="">
+                <img
+                  class="social_img"
+                  src="./images/svg/facebook.svg"
+                  alt=""
+                />
+              </a>
+              <a class="social_link" href="">
+                <img class="social_img" src="./images/svg/youtube.svg" alt="" />
+              </a>
+            </div>
+            <div class="footer_numbers">
+              <p class="footer_number">+99899 181 42 33</p>
+              <p class="footer_number">+99899 181 42 33</p>
+            </div>
           </div>
           <img
             src="./images/svg/footer_icon.svg"
